@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "DHFUpsQVS5Y=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bbdnet10219\\source\\repos\\PollyHangFireDemo\\PollyHangFireDemo\\PollyHangFireDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\hangfire\\1.8.17\\hangfire.1.8.17.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\hangfire.aspnetcore\\1.8.17\\hangfire.aspnetcore.1.8.17.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\hangfire.core\\1.8.17\\hangfire.core.1.8.17.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\hangfire.inmemory\\1.0.0\\hangfire.inmemory.1.0.0.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\hangfire.netcore\\1.8.17\\hangfire.netcore.1.8.17.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\hangfire.sqlserver\\1.8.17\\hangfire.sqlserver.1.8.17.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.0.0\\microsoft.extensions.configuration.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.0\\microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.0.0\\microsoft.extensions.fileproviders.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.0.0\\microsoft.extensions.hosting.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.0\\microsoft.extensions.logging.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\polly\\8.5.0\\polly.8.5.0.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\polly.core\\8.5.0\\polly.core.8.5.0.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\bbdnet10219\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

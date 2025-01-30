@@ -1,0 +1,6 @@
+@PollyHangFireDemo_HostAddress = http://localhost:5058
+
+GET {{PollyHangFireDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
