@@ -1,0 +1,24 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+
+
+*.vsidx
+/.vs/PollyHangFireDemo/DesignTimeBuild/.dtbcache.v2
+/PollyHangFireDemo/bin/Debug/net8.0/PollyHangFireDemo.dll
+/.vs/PollyHangFireDemo/DesignTimeBuild/.dtbcache.v2
+/.vs/PollyHangFireDemo/v17/.suo
+/.vs/PollyHangFireDemo/v17/DocumentLayout.json
+/PollyHangFireDemo/bin/Debug/net8.0/PollyHangFireDemo.exe
+/PollyHangFireDemo/obj/Debug/net8.0/PollyHangFireDemo.AssemblyInfo.cs
+/PollyHangFireDemo/obj/Debug/net8.0/PollyHangFireDemo.AssemblyInfoInputs.cache
+/PollyHangFireDemo/obj/Debug/net8.0/PollyHangFireDemo.csproj.FileListAbsolute.txt
+/PollyHangFireDemo/obj/Debug/net8.0/PollyHangFireDemo.dll
+/PollyHangFireDemo/obj/Debug/net8.0/ref/PollyHangFireDemo.dll
+/PollyHangFireDemo/bin/Debug/net8.0/PollyHangFireDemo.pdb
+/PollyHangFireDemo/obj/Debug/net8.0/PollyHangFireDemo.pdb
+*.json
+*.exe
+/.vs/PollyHangFireDemo/v17/DocumentLayout.json
+*.dll
