@@ -1,11 +1,6 @@
 ﻿using Hangfire;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
-using Polly;
-using Polly.Retry;
-using System;
-using System.Diagnostics;
-using static System.Collections.Specialized.BitVector32;
+using PollyHangFireDemo.HangfireUtils;
 
 namespace PollyHangFireDemo.Controllers
 {
@@ -26,11 +21,12 @@ namespace PollyHangFireDemo.Controllers
         {
             try
             {
-                Debug.WriteLine("File move operation started.");
-
-                _backgroundJobClient.Enqueue(() => Helper.MoveFileToDestinationAsync(null));
-                // Execute the retry logic for moving the file
-               
+                var helper = new Helper();
+                _backgroundJobClient.JobEnqueuer(
+                    action: () => helper.MoveFileToDestinationAsyncWithoutPolly(),
+                    queue: "move_file",
+                    onRetry: (ex, timeSpan, retryCount) => RetryPolicies.PrintDebugLine(ex, timeSpan, retryCount)
+                    );
                 return Ok("File will be move shortly...");
             }
             catch (Exception ex)

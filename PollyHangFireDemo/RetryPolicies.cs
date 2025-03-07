@@ -85,7 +85,7 @@ namespace PollyHangFireDemo
             Debug.WriteLine("Action executed successfully.");
         }
 
-        private static void PrintDebugLine(Exception exception, TimeSpan timeSpan, int retryCount)
+        public static void PrintDebugLine(Exception exception, TimeSpan timeSpan, int retryCount)
         {
             Debug.WriteLine(new string('=', 100));
             Debug.WriteLine($"Retry {retryCount}.\nTime: {timeSpan}\nError: {exception.GetType()} -- {exception.Message}");

@@ -1,4 +1,4 @@
-using Hangfire;
+﻿using Hangfire;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,11 +13,18 @@ builder.Services.AddHangfire(configuration =>
 // Register the Hangfire Server
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddHangfireServer();
+builder.Services.AddHangfireServer(options =>
+{
+    options.Queues = new[] {  "default","move_file" }; //  Make sure your queue is included
+});
+GlobalJobFilters.Filters.Add(new AutomaticRetryAttribute { Attempts = 0 });
+
 var app = builder.Build();
 
 
 app.UseHttpsRedirection();
 app.UseHangfireDashboard();
+app.MapHangfireDashboard();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

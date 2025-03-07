@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 namespace PollyHangFireDemo
 {
-    public static class Helper
+    public  class Helper
     {
         public static async Task MoveFileToDestinationAsync(PerformContext performContext)
         {
@@ -30,6 +30,17 @@ namespace PollyHangFireDemo
                 await Task.CompletedTask;
             }
             );
+        }
+
+        public async Task MoveFileToDestinationAsyncWithoutPolly()
+        {
+            string rootFolderPath = @"H:\\Testing\\Source\\File.txt";
+            string destinationPath = @"H:\\Testing\\Destination\\File.txt";
+
+            // Move the file
+            System.IO.File.Move(rootFolderPath, destinationPath);
+            Debug.WriteLine("File successfully moved.");
+            await Task.CompletedTask;
         }
     }
 }
